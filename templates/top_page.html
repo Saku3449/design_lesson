@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<h1>Nitech BB</h1>
+{% endblock %}
+
+{% block content %}
+{% for item in object_list %}
+<div>{{ item.title }}</div>
+<div>{{ item.content }}</div>
+{% endfor %}
+{% endblock content %}
