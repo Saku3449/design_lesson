@@ -30,5 +30,29 @@ BBの`PostModel`をクリックしてみましょう。僕が事前に用意し�
 ### detail/
 `http://127.0.0.1:8000/detail/1`にアクセスすると1つ目の記事の詳細ページを見ることができます。末尾の数字を変更することで他の記事にも移動できますが、存在しない記事を指定するとエラーになるので気をつけましょう。
 
-今回はtop_pageとdetailを`Bootstrap`で装飾することでDjangoでのデザインを勉強してもらいます。レッツトライ！
+
+## 今回のタスク
+今回はtop_pageとdetailを`Bootstrap`で装飾することでDjangoでのデザインを勉強してもらいます。下に示す`templates`内のhtmlファイルにBootstrapを適用するだけでもいいですが、余力があればCSSを試してみてください。完成形は2人に委ねます！
+
+design_lesson
+
+  ┠ BB
+  
+  ┠ designProject
+  
+  ┠ myvenv
+  
+  ┠ static
+  
+  ┠ templates
+  
+  ┃ ┠ base.html
+  
+  ┃ ┠ detail_page.html
+  
+  ┃ ┗ top_page.html
+  
+  ┠ manage.py
+  
+  ┗ requirements.txt
 
